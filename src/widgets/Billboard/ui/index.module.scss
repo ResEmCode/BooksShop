@@ -1,0 +1,24 @@
+.billboard {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    border: none;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+ img {
+  background-color: #fff;
+    border-radius: 12px;
+    border: 1px white solid;
+  }
+}
