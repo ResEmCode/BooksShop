@@ -1,4 +1,4 @@
-import Card from "@/src/enteties/Card";
+import { Card } from "@/src/enteties";
 import s from './index.module.scss';
 
 type Props = {

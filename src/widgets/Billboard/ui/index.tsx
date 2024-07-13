@@ -8,7 +8,7 @@ const Billboard = () => {
       <button>
         <ArrowLeft />
       </button>
-      <img width={1020} height={460} />
+      <img className={s.img} />
       <button>
         <ArrowRight />
       </button>
