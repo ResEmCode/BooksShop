@@ -1,0 +1,31 @@
+.search {
+  position: relative;
+  width: 460px;
+  input {
+    width: 460px;
+    height: 62px;
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 22px 0px 22px 26px;
+    font-size: 16px;
+    color: black;
+    transition: box-shadow 0.08s ease-in-out;
+    ::placeholder {
+      color: #7C7C7C;
+    }
+    &:hover {
+      box-shadow: 0 0 4px 1px #ffffff;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 8px 2px #ffffff;
+    }
+  }
+  svg {
+    position: absolute;
+    width: 24px;
+    top: 19px;
+    right: 19px;
+  }
+}

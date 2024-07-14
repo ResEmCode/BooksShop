@@ -1,7 +1,7 @@
-const Home = () => {
-  return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>main page</main>
-  );
+import Home from "@/src/pages/Home";
+
+const HomePage = () => {
+  return <Home />
 };
 
-export default Home;
+export default HomePage;

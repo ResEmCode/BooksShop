@@ -1,0 +1,29 @@
+.sort {
+  position: relative;
+  width: 350px;
+  button {
+    width: 350px;
+    height: 62px;
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 22px 0px 22px 26px;
+    font-size: 16px;
+    color: black;
+    transition: box-shadow 0.08s ease-in-out;
+    text-align: left;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 0 4px 1px #ffffff;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 8px 2px #ffffff;
+    }
+  }
+  svg {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+}

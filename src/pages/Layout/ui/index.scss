@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.root {
+  background: rgb(185,167,253);
+  background: linear-gradient(45deg, (rgba(185,167,253,1) 0%), (rgba(121,176,241,1) 50%), (rgba(255,255,255,1) 100%));
+  min-height: 100vh;
+  width: 100%;
+}
