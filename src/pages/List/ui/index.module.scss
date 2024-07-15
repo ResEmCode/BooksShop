@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  width: 1200px;
+
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: -15px;
+  }
+}

@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from 'react'
 import s from './index.module.scss'
 import { SearchIcon } from '@/src/shared/svgs'
