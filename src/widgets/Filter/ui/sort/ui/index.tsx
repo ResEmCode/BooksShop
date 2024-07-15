@@ -1,9 +1,12 @@
+"use client"
+
 import s from './index.module.scss'
 import {SortIcon} from '@/src/shared/svgs'
 
 const Sort = () => {
 
   const onClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    console.log(event)
   }
 
   return (
