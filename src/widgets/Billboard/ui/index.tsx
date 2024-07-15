@@ -1,5 +1,7 @@
-import { ArrowLeft, ArrowRight } from '@/src/shared/svgs';
 import React from 'react';
+
+import { ArrowLeft, ArrowRight } from '@/src/shared/svgs';
+
 import s from './index.module.scss';
 
 const Billboard = () => {

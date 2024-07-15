@@ -1,7 +1,9 @@
-import React from 'react'
-import s from './index.module.scss'
-import Search from './search'
-import Sort from './sort'
+import React from 'react';
+
+import Search from './search';
+import Sort from './sort';
+
+import s from './index.module.scss';
 
 const Filter = () => {
   return (
@@ -9,7 +11,7 @@ const Filter = () => {
       <Search />
       <Sort />
     </div>
-  )
-}
+  );
+};
 
-export default Filter
+export default Filter;

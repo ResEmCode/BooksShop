@@ -1,11 +1,11 @@
-"use client"
+'use client';
 
-import { useState } from 'react'
-import {Header, Billboard, Filter, Cards} from "@/src/widgets"
+import { useState } from 'react';
+
+import { Billboard, Cards, Filter, Header } from '@/src/widgets';
 
 const Home = () => {
-
-  const [limit, setLimit] = useState<number>(10)
+  const [limit, setLimit] = useState<number>(10);
 
   return (
     <>
@@ -14,7 +14,7 @@ const Home = () => {
       <Filter />
       <Cards limit={limit} />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

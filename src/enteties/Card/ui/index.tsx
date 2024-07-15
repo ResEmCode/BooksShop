@@ -1,6 +1,7 @@
 import React from 'react';
-import s from './index.module.scss';
 import Link from 'next/link';
+
+import s from './index.module.scss';
 
 const Card = () => {
   return (
