@@ -5,8 +5,7 @@
   padding-inline: 30px;
 }
 
-
-.user_block {
+.userBlock {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -16,10 +15,10 @@
   width: 128px;
   height: 128px;
   object-fit: cover;
-  border-radius: 200%;
+  border-radius: 50%;
 }
-.user_info,
-.user_text {
+.userInfo,
+.userText {
   font-size: 18px;
   line-height: 110%;
 
@@ -36,12 +35,12 @@
   margin-bottom: 8px;
 }
 
-.user_about {
+.userAbout {
   margin-bottom: 20px;
   max-width: 600px;
   width: 100%;
 }
-.user_about_text {
+.userAboutText {
   font-size: 24px;
   margin-bottom: 8px;
 }
