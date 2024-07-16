@@ -3,21 +3,21 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2021: true
   },
   extends: [
     'airbnb',
     'airbnb/hooks',
     'plugin:eslint-comments/recommended',
     'plugin:promise/recommended',
-    'plugin:prettier/recommended',
+    'plugin:prettier/recommended'
   ],
   plugins: ['simple-import-sort', 'prettier'],
   ignorePatterns: ['dist', 'coverage'],
   parserOptions: {
     ecmaFeatures: { jsx: true },
     ecmaVersion: 'latest',
-    sourceType: 'module',
+    sourceType: 'module'
   },
   rules: {
     'max-len': 'off',
@@ -40,8 +40,8 @@ module.exports = {
       'error',
       {
         namedComponents: ['arrow-function'],
-        unnamedComponents: 'arrow-function',
-      },
+        unnamedComponents: 'arrow-function'
+      }
     ],
     'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
     'sort-imports': 'off',
@@ -65,27 +65,28 @@ module.exports = {
           // Other relative imports:
           ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
           // Style imports:
-          ['^.+\\.s?css$'],
-        ],
-      },
+          ['^.+\\.s?css$']
+        ]
+      }
     ],
-    'require-await': 'error',
+    'require-await': 'error'
   },
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
       parserOptions: {
-        project: './tsconfig.json',
+        project: './tsconfig.json'
       },
       extends: [
         'airbnb-typescript',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:prettier/recommended',
-        'next/core-web-vitals',
+        'next/core-web-vitals'
       ],
       rules: {
+        'no-restricted-exports': 'off',
         'import/order': 'off',
         'import/extensions': 'off',
         'import/prefer-default-export': 'off',
@@ -96,23 +97,23 @@ module.exports = {
         '@typescript-eslint/no-shadow': 'off',
         '@typescript-eslint/restrict-template-expressions': [
           'warn',
-          { allowBoolean: true, allowNullish: true },
+          { allowBoolean: true, allowNullish: true }
         ],
         '@typescript-eslint/consistent-type-imports': [
           'error',
-          { prefer: 'type-imports', disallowTypeAnnotations: false },
+          { prefer: 'type-imports', disallowTypeAnnotations: false }
         ],
         'require-await': 'off',
-        '@typescript-eslint/require-await': 'error',
-      },
-    },
+        '@typescript-eslint/require-await': 'error'
+      }
+    }
   ],
   settings: {
     'import/resolver': {
       node: {
         extensions: ['.ts', '.tsx', '.js', '.jsx'],
-        moduleDirectory: ['node_modules', 'src/'],
-      },
+        moduleDirectory: ['node_modules', 'src/']
+      }
     },
     alias: {
       map: [
@@ -128,8 +129,8 @@ module.exports = {
         ['store', '@/store'],
         ['styles', '@/styles'],
         ['types', '@/types'],
-        ['utils', '@/utils'],
-      ],
-    },
-  },
+        ['utils', '@/utils']
+      ]
+    }
+  }
 };

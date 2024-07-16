@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+
 import Layout from '@/src/pages/Layout';
 
 export const metadata: Metadata = {
